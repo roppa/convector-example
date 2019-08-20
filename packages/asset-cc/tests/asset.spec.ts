@@ -50,6 +50,11 @@ describe('Asset', () => {
         version: '*',
         controller: 'AssetController',
         name: join(__dirname, '..')
+      },
+      {
+        version: '*',
+        controller: 'ParticipantController',
+        name: join(__dirname, '../../participant-cc/src/participant.controller')
       }
     ]);
   });
